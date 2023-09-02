@@ -1,0 +1,81 @@
+C:\Users\Gabriel Minzon>gradle -v
+
+Welcome to Gradle 8.3!
+
+Here are the highlights of this release:
+ - Faster Java compilation
+ - Reduced memory usage
+ - Support for running on Java 20
+
+For more details see https://docs.gradle.org/8.3/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.3
+------------------------------------------------------------
+
+Build time:   2023-08-17 07:06:47 UTC
+Revision:     8afbf24b469158b714b36e84c6f4d4976c86fcd5
+
+Kotlin:       1.9.0
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          20.0.2 (Oracle Corporation 20.0.2+9-78)
+OS:           Windows 10 10.0 amd64
+
+C:\Users\Gabriel Minzon>cd Documents
+
+C:\Users\Gabriel Minzon\Documents>cd "Projetos Etec"
+
+C:\Users\Gabriel Minzon\Documents\Projetos Etec>cd DS
+
+C:\Users\Gabriel Minzon\Documents\Projetos Etec\DS>cd projCalculadoraJava_TesteUnitario
+
+C:\Users\Gabriel Minzon\Documents\Projetos Etec\DS\projCalculadoraJava_TesteUnitario>gradle init
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+Select type of project to generate:
+  1: basic
+  2: application
+  3: library
+  4: Gradle plugin
+Enter selection (default: basic) [1..4] 2
+
+Select implementation language:
+  1: C++
+  2: Groovy
+  3: Java
+  4: Kotlin
+  5: Scala
+  6: Swift
+Enter selection (default: Java) [1..6] 3
+
+Generate multiple subprojects for application? (default: no) [yes, no] no
+Select build script DSL:
+  1: Kotlin
+  2: Groovy
+Enter selection (default: Kotlin) [1..2] 2
+
+Select test framework:
+  1: JUnit 4
+  2: TestNG
+  3: Spock
+  4: JUnit Jupiter
+Enter selection (default: JUnit Jupiter) [1..4] 1
+
+Project name (default: projCalculadoraJava_TesteUnitario):
+Source package (default: projcalculadorajava_testeunitario):
+Enter target version of Java (min. 7) (default: 20):
+Generate build using new APIs and behavior (some features may change in the next minor release)? (default: no) [yes, no]                                                                                                                       no
+
+
+> Task :init
+To learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.3/samples/sample_building_java_applications.html
+
+BUILD SUCCESSFUL in 5m 12s
+2 actionable tasks: 2 executed
+C:\Users\Gabriel Minzon\Documents\Projetos Etec\DS\projCalculadoraJava_TesteUnitario>gradle test
+
+BUILD SUCCESSFUL in 7s
+3 actionable tasks: 3 executed
+C:\Users\Gabriel Minzon\Documents\Projetos Etec\DS\projCalculadoraJava_TesteUnitario>
